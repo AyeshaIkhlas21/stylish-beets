@@ -15,6 +15,7 @@ font-family: 'PT Serif', serif;
 
 img {
   width: 100%;
+  line-height: 1.5;
 }
 
 h1 {
@@ -28,19 +29,19 @@ a {
   color: #8f2440;
   font-size: 1.125rem;
   text-decoration: none;
-  line-height: 1;
+  list-style-type: none;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
 }
 
 a:hover {
+  color: #8f2440;
   border-bottom: none;
-  text-decoration: none;
+  text-decoration: inherit;
 }
 
-ol {
-  list-style-type: none;
-  font-size: 1.5em;
-  font-family: "PT Serif", serif;
-  font-weight: bold;
+.main-wrapper {
+  max-width: 60em;
 }
 
 figcaption {
