@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Serif", serif;
   background-color: #c9b5ab;
 }
 
@@ -18,22 +18,33 @@ img {
 }
 
 h1 {
-  font-family: "PT Serif", serif;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
   font-size: 1.5rem;
+  color: #3f1622;
 }
 
-.main-nav {
-  max-wrapper: 60em;
-  color: #c9b5ab;
+a {
+  color: #8f2440;
   font-size: 1.125rem;
+  text-decoration: none;
 }
 
-.main-nav:hover {
-  border-bottom: none;
+a:hover {
+  border-bottom: 3px dotted;
+  text-decoration: none;
+}
+
+.main-wrapper {
+  max-width: 60em;
 }
 
 figcaption {
   font-family: "PT Serif", serif;
   font-size: .8rem;
   font-style: italic;
+}
+
+h2 {
+  color: #3f1622;
 }
