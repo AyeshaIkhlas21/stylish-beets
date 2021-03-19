@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "PT Serif", serif;
+  font-family: "PT Serif", sans-serif;
   background-color: #c9b5ab;
 }
 
@@ -28,23 +28,60 @@ a {
   color: #8f2440;
   font-size: 1.125rem;
   text-decoration: none;
+  line-height: 1;
 }
 
-a:hover {
-  border-bottom: 3px dotted;
-  text-decoration: none;
-}
-
-.main-wrapper {
-  max-width: 60em;
+ol {
+  list-style-type: none;
+  font-size: 1.5em;
+  font-family: "PT Serif", serif;
+  font-weight: bold;
 }
 
 figcaption {
   font-family: "PT Serif", serif;
   font-size: .8rem;
   font-style: italic;
+  text-align: center;
 }
 
 h2 {
   color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+.intro {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+strong {
+  font-weight: normal;
+}
+
+main ol li {
+  font-weight: normal;
+  list-style-type: lower-greek;
+  font-size: 1.125rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.data {
+  font-style: italic;
+}
+
+aside ul li {
+  font-size: .8rem;
+}
+
+footer a {
+  font-size: .8rem;
 }
